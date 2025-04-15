@@ -22,7 +22,7 @@ public class MathClassMethods{
 		System.out.print("Enter first number: ");
 		double num1 = scan.nextDouble();
 		
-		System.out.print("Enter first number: ");
+		System.out.print("Enter second number: ");
 		double num2 = scan.nextDouble();
 		
 		System.out.printf("The minimum number is %f%n",Math.min(num1,num2));
@@ -40,7 +40,7 @@ public class MathClassMethods{
 		radius = scan.nextDouble();
 		areaOfCircle = 2 * Math.PI * Math.pow(radius,2);
 		
-		System.out.printf("The area od a circle is %.2f%n: ",areaOfCircle);
+		System.out.printf("The area of a circle is %.2f%n: ",areaOfCircle);
 		
 		
 		
